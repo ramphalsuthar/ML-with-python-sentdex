@@ -1,6 +1,6 @@
 import pandas as pd
-import Quandl
+import quandl
 
-df = Quandl.get('WIKI/GOOGLE')
+df = quandl.get("WIKI/GOOGLE")
 
 print(df.head())
